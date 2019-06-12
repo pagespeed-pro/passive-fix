@@ -1,6 +1,6 @@
-# Override of `addEventListener` to apply passive event listeners
+# Passive event listeners fix
 
-A native override for events `wheel`, `mousewheel`, `touchstart`, `touchmove` that enables to pass the Google Lighthouse penalty `Does not use passive listeners to improve scrolling performance`.
+An override of `addEventListener` for events `wheel`, `mousewheel`, `touchstart`, `touchmove` that enables to pass the Google Lighthouse penalty `Does not use passive listeners to improve scrolling performance`.
 
 Include `passive-fix.js` before jQuery or code that uses `addEventListener`.
 
